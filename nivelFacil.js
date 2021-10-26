@@ -29,7 +29,7 @@ function bot() {
     const posicoesDisponiveis = [];
     for (index in blocos) {
         if (!isNaN(index)) {
-            if (!blocos[index].classList.contains('x') && !blocos[index].classList.contains('o')) {
+            if (!blocos[index].classList.contains('X') && !blocos[index].classList.contains('O')) {
                 posicoesDisponiveis.push(index);
             }
         }
