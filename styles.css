@@ -20,7 +20,7 @@ main {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 150px;
+    margin-top: 146px;
 }
 h1 {
     font-size: 144px;
@@ -68,7 +68,7 @@ button:hover {
     justify-content: flex-end;
     align-items: flex-end;
     left: -205px;
-    height: 520px;
+    height: 510px;
 }
 .simbolo_o {
     font-size: 180px;
