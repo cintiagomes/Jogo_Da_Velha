@@ -21,7 +21,7 @@ document.addEventListener('click', (event) => {
     if (event.target.matches('.bloco')) {
         //console.log(event.target.id);
         jogada(event.target.id, PlayerX);
-        setTimeout(() => bot(), 100);
+        setTimeout(() => bot(), 50);
     }
 });
 
@@ -29,13 +29,18 @@ function bot() {
     const posicoesDisponiveis = [];
     for (index in blocos) {
         if (!isNaN(index)) {
-            if (!blocos[index].classList.contains('X') && !blocos[index].classList.contains('O')) {
+            if (
+                !blocos[index].classList.contains('X') &&
+                !blocos[index].classList.contains('O')
+            ) {
                 posicoesDisponiveis.push(index);
             }
         }
     }
 
-    const posicaoAleatoria = Math.floor(Math.random() * posicoesDisponiveis.length);
+    const posicaoAleatoria = Math.floor(
+        Math.random() * posicoesDisponiveis.length
+    );
 
     if (!fimDeJogo) {
         jogada(posicoesDisponiveis[posicaoAleatoria], PlayerO);
@@ -99,10 +104,10 @@ function encerrarJogo(vencedor = null) {
         h2.innerHTML = 'Empate';
     }
 
-    let contador = 10;
+    let contador = 5;
     setInterval(() => {
         h2.innerHTML = `Continue ${contador--}`;
     }, 1000);
 
-    setTimeout(() => location.reload(), 10000);
+    setTimeout(() => location.reload(), 5000);
 }
