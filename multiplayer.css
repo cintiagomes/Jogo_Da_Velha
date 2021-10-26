@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #294554;
+    font-family: 'Press Start 2P', cursive;
+}
+
+h2, h3{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-weight:normal;
+}
+
+.conteinar_nivel_facil {
+    background-color: #294554;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nivel_facil {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 0.2em;
+    background-color: #ffffff;
+}
+
+.bloco {
+    display: flex;
+    width: 330px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    background: #294554;
+    transition: 0.2s ease-in-out;
+    font-size: 100px;
+    color: #54ff51;
+    
+}
+
+.bloco:hover {
+    cursor: pointer;
+    background: #54ff5163;
+}
+button {
+    width: 420px;
+    height: 85px;
+    font-size: 30px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px black;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background: #f5f2eb;
+    margin-top: 30px;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+button:hover {
+    filter: grayscale(0%);
+    transform: scale(120%);
+}
+.verde {
+    background-color: #84ff70;
+}
+.vermelho {
+    background-color: #ff6767;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.placar_conteiner {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 25px;
+    align-items: center;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+.simbolo_x {
+    color: #fdc827;
+    font-size: 60px;
+    text-shadow: 5px 5px 0px #000000;
+    padding-left: 90px;
+}
+.simbolo_o {
+    color: #b441b6;
+    font-size: 60px;
+    text-shadow: 5px 5px 0px #000000;
+    padding-right: 90px;
+}

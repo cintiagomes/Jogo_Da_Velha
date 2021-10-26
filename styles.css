@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #294554;
+    font-family: 'Press Start 2P', cursive;
+}
+header {
+    height: 580px;
+}
+main {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+h1 {
+    font-size: 144px;
+    width: 816px;
+    height: 432px;
+    line-height: 170px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    text-shadow: 10px 10px 0px #000000;
+    margin-left: 210px;
+}
+button {
+    width: 570px;
+    height: 85px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px black;
+    margin-bottom: 80px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    background: #f5f2eb;
+}
+button:hover {
+    filter: grayscale(0%);
+    transform: scale(120%);
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: end;
+    color: white;
+    margin-bottom: 5px;
+}
+.titulo-jogo {
+    margin-top: 50px;
+    color: #54ff51;
+}
+.simbolo {
+    position: absolute;
+    font-size: 180px;
+    color: #fdc827;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    left: -205px;
+    height: 520px;
+}
+.simbolo_o {
+    font-size: 180px;
+    color: #b441b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title-nivel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button-niveis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.conjunto {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 110px;
+}
+.verde {
+    background-color: #84ff70;
+}
+.amarelo {
+    background-color: #fff967;
+}
+.vermelho {
+    background-color: #ff6767;
+}

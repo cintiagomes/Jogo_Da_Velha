@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #294554;
+    font-family: 'Press Start 2P', cursive;
+}
+header{
+    height: 580px;
+}
+main{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1{
+    font-size: 144px;
+    line-height: 170px;
+    width: 816px;
+    height: 432px;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    padding-left: 70px;
+    text-shadow: 10px 10px 0px #000000;
+}
+button{
+    width: 570px;
+    height: 85px;
+    font-size: 25px;
+    font-family: 'Press Start 2P', cursive;
+    border: 2px solid black;
+    box-shadow: 10px 10px 0px black;
+    margin-right: 100px;
+    margin-left: 100px;
+    cursor: pointer;
+    transition: all .2s linear;
+    background: #F5F2EB;
+}
+button:hover{
+    filter: grayscale(0%);
+    transform: scale(110%);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-bottom: 5px;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo-jogo{
+    margin-top: 50px;
+    color: #54FF51;
+}
+.simbolo{
+    position: absolute;
+    font-size: 288px;
+    color: #FDC827;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.simbolo_o{
+    font-size: 288px;
+    color: #B441B6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
