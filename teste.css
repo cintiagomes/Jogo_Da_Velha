@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body {
+    font-family: 'Press Start 2P', cursive;
+}
+html {
+    scroll-behavior: smooth;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.521);
+    font-family: 'Press Start 2P', cursive;
+}
+nav .bottom {
+    width: 140px;
+    height: 30px;
+    margin-right: 70px;
+    background: rgb(47, 0, 255);
+    color: rgb(255, 205, 24);
+    font-weight: 500;
+    /* border-radius: 2px; */
+    /* border: solid 2px rgb(255, 200, 0); */
+    /* border-color: rgb(47, 0, 255); */
+    box-shadow: 2px 2px 0px black;
+    font-family: 'Press Start 2P', cursive;
+    margin-top: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 7px;
+}
+.bottom {
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-left: 100px;
+}
+nav li a {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(27, 46, 53);
+    padding: 3px 7px;
+    border: solid 1px transparent;
+}
+nav li a:hover {
+    color: #fdc827;
+    border-color: #b441b6;
+}
+
+#regras header {
+    display: flex;
+    padding: 0 90px;
+}
+
+main h1 {
+    font-family: 'Press Start 2P', cursive;
+    width: 1000px;
+    color: #54ff51;
+    font-size: 120px;
+    text-shadow: 3px 3px 1px black;
+    margin-right: 250px;
+    text-align: center;
+}
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+}
+main span {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(255, 207, 35);
+    font-size: 100px;
+    font-weight: lighter;
+    margin-top: 40px;
+}
+main .descricao {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 30px;
+    width: 870px;
+    font-weight: lighter;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+article .descricao {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 30px;
+    width: 870px;
+    font-weight: lighter;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+.container {
+    display: flex;
+    background: rgb(255, 200, 0);
+    height: 300px;
+    width: 870px;
+    box-shadow: 8px 8px 1px black;
+    margin-left: 300px;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+.container .item {
+    height: 300px;
+    width: 870px;
+    display: flex;
+    align-items: center;
+}
+
+.container .item .container-video {
+    width: 50%;
+}
+.container .item .textinho {
+    width: 50%;
+    z-index: 1000;
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    text-align: left;
+    margin-right: 30px;
+}
+.container .item h4 {
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 120px;
+    text-align: left;
+}
+.conjunto {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+    font-size: 30px;
+    width: 870px;
+    font-weight: lighter;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+.conjuntos {
+    font-family: 'Press Start 2P', cursive;
+    color: black;
+    font-size: 30px;
+    width: 870px;
+    font-weight: lighter;
+    padding-left: 500px;
+    padding-top: 20px;
+}
+h3 {
+    color: #b441b6;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+h4 {
+    color: #fdc827;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+/* video{
+    height: 250px;
+    width: 250px;
+    margin-right: 500px;
+}
+.seila{
+    float: right;
+} */
+/* #seila{
+ background: rgb(113, 94, 212);
+ height: 300px;
+ width: 870px;
+ box-shadow: 8px 8px 1px black;
+ margin-left: 300px;
+ margin-top: 30px;
+} */
+
+section {
+    min-height: 100vh;
+    padding-top: 3rem;
+}
+#sobre {
+    background-color: rgb(27, 46, 53);
+    color: rgb(255, 200, 0);
+}
+#regras {
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 0, 255);
+}
+#origem {
+    background-color: rgb(27, 46, 53);
+    color: rgb(255, 200, 0);
+}
+#estrategia {
+    background-color: rgb(255, 255, 255);
+    color: rgb(47, 0, 255);
+}

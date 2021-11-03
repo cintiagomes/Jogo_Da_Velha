@@ -1,27 +1,28 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: #294554;
     font-family: 'Press Start 2P', cursive;
+    overflow-x: hidden;
 }
-header{
+header {
     height: 580px;
 }
-main{
+main {
     flex-grow: 1;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
-h1{
+h1 {
     font-size: 144px;
     line-height: 170px;
     width: 816px;
@@ -31,7 +32,7 @@ h1{
     padding-left: 70px;
     text-shadow: 10px 10px 0px #000000;
 }
-button{
+button {
     width: 570px;
     height: 85px;
     font-size: 25px;
@@ -41,41 +42,83 @@ button{
     margin-right: 100px;
     margin-left: 100px;
     cursor: pointer;
-    transition: all .2s linear;
-    background: #F5F2EB;
+    transition: all 0.2s linear;
+    background: #f5f2eb;
 }
-button:hover{
+button:hover {
     filter: grayscale(0%);
     transform: scale(110%);
 }
-.center{
+.center {
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     margin-bottom: 5px;
 }
-.titulo{
+.titulo {
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-.titulo-jogo{
+.titulo-jogo {
     margin-top: 50px;
-    color: #54FF51;
+    color: #54ff51;
 }
-.simbolo{
+.simbolo {
     position: absolute;
     font-size: 288px;
-    color: #FDC827;
+    color: #fdc827;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
 }
-.simbolo_o{
+.simbolo_o {
     font-size: 288px;
-    color: #B441B6;
+    color: #b441b6;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.info {
+    font-size: 100px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: normal;
+    padding-left: 70px;
+    text-shadow: 10px 10px 0px #000000;
+    color: #54ff51;
+}
+h2 {
+    text-align: center;
+    padding: 50px;
+    font-weight: normal;
+}
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+}
+p {
+    color: white;
+    text-align: left;
+    width: 900px;
+    line-height: 30px;
+    font-size: 20px;
+    padding: 50px;
+}
+.roxo {
+    color: #b441b6;
+}
+.amarelo {
+    color: #fdc827;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    padding-bottom: 60px;
 }
