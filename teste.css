@@ -9,10 +9,15 @@ body {
 html {
     scroll-behavior: smooth;
 }
+#inicio{
+    background-image: url(img/mario.gif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
 nav {
     display: flex;
     justify-content: space-between;
-    height: 45px;
+    height: 60px;
     position: fixed;
     background-color: white;
     width: 100%;
@@ -20,21 +25,21 @@ nav {
     font-family: 'Press Start 2P', cursive;
 }
 nav .bottom {
-    width: 140px;
-    height: 30px;
-    margin-right: 70px;
-    background: rgb(47, 0, 255);
-    color: rgb(255, 205, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-right: 50px;
+    width: 170px;
+    height: 40px;
+    background: lawngreen;
+    color: #b441b6;
     font-weight: 500;
-    /* border-radius: 2px; */
-    /* border: solid 2px rgb(255, 200, 0); */
-    /* border-color: rgb(47, 0, 255); */
+    text-align: center;
     box-shadow: 2px 2px 0px black;
     font-family: 'Press Start 2P', cursive;
-    margin-top: 5px;
     font-size: 22px;
     text-decoration: none;
-    margin-top: 7px;
 }
 .bottom {
     text-align: center;
@@ -55,8 +60,8 @@ nav li a {
     border: solid 1px transparent;
 }
 nav li a:hover {
-    color: #fdc827;
-    border-color: #b441b6;
+    color: #b441b6;
+    border-color: #fdc827;
 }
 
 #regras header {
@@ -67,9 +72,10 @@ nav li a:hover {
 main h1 {
     font-family: 'Press Start 2P', cursive;
     width: 1000px;
-    color: #54ff51;
+    color: lawngreen;
     font-size: 120px;
-    text-shadow: 3px 3px 1px black;
+    text-shadow: 10px 10px 0px black;
+    margin-top: 50px;
     margin-right: 250px;
     text-align: center;
 }
@@ -79,71 +85,11 @@ main h1 {
     align-items: center;
     padding-top: 250px;
 }
-main span {
-    font-family: 'Press Start 2P', cursive;
-    color: rgb(255, 207, 35);
-    font-size: 100px;
-    font-weight: lighter;
-    margin-top: 40px;
-}
-main .descricao {
-    font-family: 'Press Start 2P', cursive;
-    color: white;
-    font-size: 30px;
-    width: 870px;
-    font-weight: lighter;
-    padding-left: 500px;
-    padding-top: 20px;
-}
-article .descricao {
-    font-family: 'Press Start 2P', cursive;
-    color: black;
-    font-size: 30px;
-    width: 870px;
-    font-weight: lighter;
-    padding-left: 500px;
-    padding-top: 20px;
-}
-.container {
-    display: flex;
-    background: rgb(255, 200, 0);
-    height: 300px;
-    width: 870px;
-    box-shadow: 8px 8px 1px black;
-    margin-left: 300px;
-    margin-top: 30px;
-    gap: 10px;
-}
-
-.container .item {
-    height: 300px;
-    width: 870px;
-    display: flex;
-    align-items: center;
-}
-
-.container .item .container-video {
-    width: 50%;
-}
-.container .item .textinho {
-    width: 50%;
-    z-index: 1000;
-    color: white;
-    font-family: 'Press Start 2P', cursive;
-    text-align: left;
-    margin-right: 30px;
-}
-.container .item h4 {
-    color: white;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 120px;
-    text-align: left;
-}
 .conjunto {
     font-family: 'Press Start 2P', cursive;
     color: white;
     font-size: 30px;
-    width: 870px;
+    width: 950px;
     font-weight: lighter;
     padding-left: 500px;
     padding-top: 20px;
@@ -152,56 +98,55 @@ article .descricao {
     font-family: 'Press Start 2P', cursive;
     color: black;
     font-size: 30px;
-    width: 870px;
+    width: 900px;
     font-weight: lighter;
     padding-left: 500px;
     padding-top: 20px;
 }
+.conjuntos img{
+    margin-left: 170px;
+}
 h3 {
     color: #b441b6;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-decoration: none;
 }
-h4 {
-    color: #fdc827;
-    padding-top: 100px;
-    padding-bottom: 50px;
+p{
+    line-height: 40px;
 }
-
-/* video{
-    height: 250px;
-    width: 250px;
-    margin-right: 500px;
+.conjunt{
+    padding-bottom: 150px;
 }
-.seila{
-    float: right;
-} */
-/* #seila{
- background: rgb(113, 94, 212);
- height: 300px;
- width: 870px;
- box-shadow: 8px 8px 1px black;
- margin-left: 300px;
- margin-top: 30px;
-} */
-
 section {
     min-height: 100vh;
     padding-top: 3rem;
 }
 #sobre {
     background-color: rgb(27, 46, 53);
-    color: rgb(255, 200, 0);
 }
 #regras {
     background-color: rgb(255, 255, 255);
-    color: rgb(47, 0, 255);
 }
 #origem {
     background-color: rgb(27, 46, 53);
-    color: rgb(255, 200, 0);
 }
 #estrategia {
     background-color: rgb(255, 255, 255);
-    color: rgb(47, 0, 255);
+}
+.final{
+    background-color: rgb(27, 46, 53);
+    height: 50px;
+    color: #fdc827;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 20px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+em{
+    color: #fdc827;
+    font-style: normal;
 }
