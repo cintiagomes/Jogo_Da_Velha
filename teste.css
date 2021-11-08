@@ -44,6 +44,10 @@ nav .bottom {
 .bottom {
     text-align: center;
 }
+button:hover {
+    filter: grayscale(0%);
+    transform: scale(90%);
+}
 nav ul {
     list-style: none;
     display: flex;
