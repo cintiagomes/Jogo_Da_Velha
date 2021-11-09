@@ -9,7 +9,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
-#inicio{
+#inicio {
     background-image: url(img/mario.gif);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -44,7 +44,7 @@ nav .bottom {
 .bottom {
     text-align: center;
 }
-button:hover {
+.bottom:hover {
     filter: grayscale(0%);
     transform: scale(90%);
 }
@@ -107,7 +107,7 @@ main h1 {
     padding-left: 500px;
     padding-top: 20px;
 }
-.conjuntos img{
+.conjuntos img {
     margin-left: 170px;
 }
 h3 {
@@ -116,10 +116,10 @@ h3 {
     padding-bottom: 30px;
     text-decoration: none;
 }
-p{
+p {
     line-height: 40px;
 }
-.conjunt{
+.conjunt {
     padding-bottom: 150px;
 }
 section {
@@ -138,7 +138,7 @@ section {
 #estrategia {
     background-color: rgb(255, 255, 255);
 }
-.final{
+.final {
     background-color: rgb(27, 46, 53);
     height: 50px;
     color: #fdc827;
@@ -150,7 +150,7 @@ section {
     justify-content: center;
     align-items: center;
 }
-em{
+em {
     color: #fdc827;
     font-style: normal;
 }
